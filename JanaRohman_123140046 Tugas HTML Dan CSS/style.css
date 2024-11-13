@@ -1,0 +1,114 @@
+/* Mengatur tampilan body */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #283048, #859398);
+    color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Menjaga elemen tetap di tengah secara vertikal */
+    min-height: 100vh; /* Membuat body memiliki tinggi penuh */
+}
+
+/* Mengatur tampilan container utama */
+.container {
+    display: flex;
+    flex-direction: column; /* Tampilkan elemen secara vertikal */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* Gaya untuk gambar profil, nama, NIM, dan prodi di tengah */
+.container > div {
+    text-align: center; /* Mengatur teks di dalam div menjadi rata tengah */
+    margin-bottom: 30px; /* Memberikan jarak bawah */
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #859398;
+    box-shadow: 0 4px 10px rgba(133, 147, 152, 0.8);
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* Gaya untuk heading h1 dan h2 */
+h1 {
+    font-size: 2.5em;
+    color: #f0f0f0;
+    text-shadow: 0 0 5px #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #859398;
+    border-bottom: 2px solid #859398;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+/* Mengatur tampilan list */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    text-align: left;
+    margin: 20px 0;
+}
+
+li {
+    margin-bottom: 8px;
+    color: #f0f0f0;
+    font-size: 1.1em;
+}
+
+/* Mengatur tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    color: #f0f0f0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #555;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+th {
+    background: #859398;
+    color: #fff;
+}
+
+td {
+    background-color: rgba(20, 20, 20, 0.8);
+}
+
+/* Mengatur link */
+a {
+    color: #859398;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #f0f0f0;
+    text-shadow: 0 0 10px #859398;
+}
