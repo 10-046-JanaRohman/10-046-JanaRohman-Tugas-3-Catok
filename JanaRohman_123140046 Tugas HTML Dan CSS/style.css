@@ -6,8 +6,8 @@ body {
     padding: 20px;
     display: flex;
     justify-content: center;
-    align-items: center; /* Menjaga elemen tetap di tengah secara vertikal */
-    min-height: 100vh; /* Membuat body memiliki tinggi penuh */
+    align-items: center; 
+    min-height: 100vh; 
 }
 
 .container {
